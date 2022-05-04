@@ -6,10 +6,10 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
     background-color: #ffffff;
-    color: #F9FAF8;
+    color: #E5E7EB;
 }
 
 a {
@@ -27,6 +27,13 @@ img {
     max-width: 100%;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    line-height: 1.2;
+}
+
 .header-section {
     background-color: #1F2937;
 }
@@ -34,6 +41,7 @@ img {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 900;
 }
 
 .navigation {
@@ -59,4 +67,15 @@ img {
 .top-left, 
 .top-right {
     flex:1;
+}
+
+.top-left button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 32px;
+    margin-top: 16px;
 }
