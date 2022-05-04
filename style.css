@@ -125,7 +125,6 @@ h1 {
 
 .quote-section .container {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     gap: 16px;
     padding: 64px 32px;
